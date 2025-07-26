@@ -1,0 +1,43 @@
+.header-section {
+  width: 100%;
+  background: rgb(20, 22, 40);
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;   // Center the nav links
+  gap: 6rem;                 // Huge gap between links
+}
+
+.header nav a {
+  color: #fcfcfc;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.7rem;         // Slightly larger text
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+:host {
+  display: block;
+  height: 100vh;
+}
+
+body, html {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(25, 28, 54);
+}
+
+.content {
+  background-color: rgb(25, 28, 54);
+  width: 100%;
+  min-height: 100vh;
+}
+
+body, html, .content {
+  overflow-x: hidden;
+}

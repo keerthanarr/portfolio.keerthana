@@ -1,0 +1,44 @@
+.home-intro-card {
+  background: rgba(30, 30, 40, 0.8);
+  color: #fff;
+  padding: 4rem 5rem;           // Increased padding
+  border-radius: 2rem;          // Larger border radius
+  max-width: 800px;             // Increased card width
+  text-align: left;
+  margin: 0;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateY(-50%);
+  animation: fadeInCard 1.2s ease;
+}
+
+.home-intro-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-left: 5vw;
+}
+
+.home-intro-card {
+  /* ...existing styles... */
+}
+
+.profile-image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 10rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  
+}
+.highlight-role {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
